@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9899b5e6-4a70-4e1e-b351-c3c6d1b1537f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/JpaDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/JpaDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/aspect/FindAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/aspect/FindAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/calculator/HashCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/calculator/HashCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/dataobject/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/dataobject/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-demo/src/test/java/com/bqniu/jpademo/calculator/HashCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-demo/src/test/java/com/bqniu/jpademo/calculator/HashCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-demo/src/main/java/com/bqniu/kafkademo/producer/TransMessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-demo/src/main/java/com/bqniu/kafkademo/producer/TransMessageProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-demo/target/classes/com/bqniu/kafkademo/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/bqniu/kafkademo/controller/MessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-demo/target/classes/com/bqniu/kafkademo/producer/TransMessageProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/bqniu/kafkademo/producer/TransMessageProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmqdemo/RabbitmqDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/RabbitmqDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmqdemo/StartApplicationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/StartApplicationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmqdemo/config/MqQueueInfoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/config/MqQueueInfoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmqdemo/config/RabbitMqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/config/RabbitMqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmqdemo/consumer/MessageConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/consumer/MessageConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmqdemo/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmqdemo/dataobject/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/dataobject/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmqdemo/producer/ClientWayMsgProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/producer/ClientWayMsgProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmqdemo/producer/MessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/producer/MessageProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/src/test/java/com/bqniu/rabbitmqdemo/RabbitmqDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/src/test/java/com/bqniu/rabbitmq/RabbitmqDemoApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/aop-demo/target/" />
+    <ignored path="$PROJECT_DIR$/jpa-demo/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-demo/target/" />
+    <ignored path="$PROJECT_DIR$/kafka-demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-stream-demo/target/" />
+    <ignored path="$PROJECT_DIR$/streamclient/target/" />
+    <ignored path="$PROJECT_DIR$/stream-client-sample1/target/" />
+    <ignored path="$PROJECT_DIR$/stream-client-sample2/target/" />
+    <ignored path="$PROJECT_DIR$/clientcommon/target/" />
+    <ignored path="$PROJECT_DIR$/stream-client-common/target/" />
+    <ignored path="$PROJECT_DIR$/stream-config-sample/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-demo/target/" />
+    <ignored path="$PROJECT_DIR$/cap-demo/target/" />
+    <ignored path="$PROJECT_DIR$/proxy-demo/target/" />
+    <ignored path="$PROJECT_DIR$/mq-middle-ware/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="demo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/aspect/CapTCCAddAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/JpaDemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.0.RELEASE/spring-boot-2.1.0.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="1161" column="66" lean-forward="true" selection-start-line="1161" selection-start-column="66" selection-end-line="1161" selection-end-column="66" />
+              <folding>
+                <element signature="e#9803#9804#0" expanded="true" />
+                <element signature="e#9836#9837#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/dataobject/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jpa-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/config/CapDataSourcePropeties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Aspect" />
+        <option value="Scala Worksheet" />
+        <option value="Package Object" />
+        <option value="Scala Object" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>send</find>
+      <find>redis</find>
+      <find>exchangeType</find>
+      <find>: Int =</find>
+      <find>xdd</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rabbitmq-demo/src/test/java/com/bqniu/rabbitmq/producer/ClientWayMsgProducerTest.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/consumer/MessageConsumer1.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mq-middle-ware/src/main/java/com/bqniu/mqmiddleware/dataobject/SandBoxDataInfo.java" />
+        <option value="$PROJECT_DIR$/mq-middle-ware/src/main/java/com/bqniu/mqmiddleware/dataobject/SandBoxProperty.java" />
+        <option value="$PROJECT_DIR$/mq-middle-ware/src/main/java/com/bqniu/mqmiddleware/dataobject/ServiceProperty.java" />
+        <option value="$PROJECT_DIR$/mq-middle-ware/src/main/java/com/bqniu/mqmiddleware/dataobject/ResourceProperty.java" />
+        <option value="$PROJECT_DIR$/mq-middle-ware/src/main/java/com/bqniu/mqmiddleware/dataobject/ResourceEnum.java" />
+        <option value="$PROJECT_DIR$/mq-middle-ware/src/main/java/com/bqniu/mqmiddleware/dataobject/DataSourceProperty.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/CapTranscationContext.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/ICapTranscational.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/bqniu/rabbitmq/producer/ClientWayMsgProducer.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/CapTranscational.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/OperateType.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/CapTranscational.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/ICapTransactional.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/config/CapDatabaseConfig.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/AbstactEntityFactory.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/AbstractEntityFactory.java" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/scala/com/bqniu/jpademo/calculator/HashCalculator.scala" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/scala/com/bqniu/jpademo/calculator/SqlQueryStrCalculator.scala" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/scala/com/bqniu/jpademo/util/RedisUtil.scala" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/aspect/FindAspect.java" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/test/java/com/bqniu/jpademo/calculator/HashCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/dataobject/UserTransEx.java" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/dataobject/User.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/exception/CapTranscationalException.java" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/dataobject/Test.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/CapAnnotationProcessor.java" />
+        <option value="$PROJECT_DIR$/cap-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/CapListener.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/agent/TransactionalAgent.java" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/CapTransactional.java" />
+        <option value="$PROJECT_DIR$/proxy-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/service/CapTransactionTest.java" />
+        <option value="$PROJECT_DIR$/proxy-demo/src/main/java/com/bqniu/proxy/ProxyApplication.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/entity/TransShadow.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/TCCDelete.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/TCCUpdate.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/TCCAdd.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/repository/TCCRepository.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/service/TCCService.java" />
+        <option value="$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/aspect/CapTCCAddAspect.java" />
+        <option value="$PROJECT_DIR$/jpa-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/service/UserService.java" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/JpaDemoApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Soft/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cap-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cap-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cap-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cap-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-253" />
+    <option name="y" value="43" />
+    <option name="width" value="1111" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="aop-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="aop-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="aop-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="aop-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="aop-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aopdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="aop-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="aop-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="aop-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="aop-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="capdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="capdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="capdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="capdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="capdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="capdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="capdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="capdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INFO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jpademo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jpademo" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jpademo" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jpademo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jpademo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jpademo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jpademo" type="462c0819:PsiDirectoryNode" />
+              <item name="dataobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jpademo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jpademo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555988244207" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.40667808" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.bqniu.rabbitmq.producer" />
+      <recent name="com.bqniu.streamclient2" />
+      <recent name="com.bqniu.jpademo.calculator" />
+      <recent name="com.bqniu.kafkademo.producer" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.JpaDemoApplication">
+    <configuration name="ProxyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bqniu.proxy.ProxyApplication" />
+      <module name="proxydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bqniu.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientWayMsgProducerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bqniu.rabbitmq.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bqniu.rabbitmq.producer" />
+      <option name="MAIN_CLASS_NAME" value="com.bqniu.rabbitmq.producer.ClientWayMsgProducerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bqniu.jpademo.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bqniu.jpademo.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.bqniu.jpademo.calculator.HashCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aop-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.aopdemo.AopDemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CapDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cap-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.capdemo.CapDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jpa-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.jpademo.JpaDemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.kafkademo.KafkaDemoApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8080" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaDemoApplication1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.kafkademo.KafkaDemoApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8081" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqMiddleWareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mq-middle-ware" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.mqmiddleware.MqMiddleWareApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.mybatisdemo.MybatisDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.rabbitmq.RabbitmqDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudStreamDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-stream-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.stream.StreamDemoApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8080" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudStreamDemoApplication1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-stream-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.stream.StreamDemoApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8081" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudStreamDemoApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-stream-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.stream.StreamDemoApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudStreamDemoApplication3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-stream-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.stream.StreamDemoApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamClientSample1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-client-sample1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.streamclient1.StreamClientSample1Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamClientSample2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-client-sample2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.streamclient2.StreamClientSample2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="streamclientsample" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-config-sample" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bqniu.config.StreamConfigApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.HashCalculatorTest" />
+      <item itemvalue="JUnit.ClientWayMsgProducerTest" />
+      <item itemvalue="Spring Boot.KafkaDemoApplication" />
+      <item itemvalue="Spring Boot.KafkaDemoApplication1" />
+      <item itemvalue="Spring Boot.AopDemoApplication" />
+      <item itemvalue="Spring Boot.JpaDemoApplication" />
+      <item itemvalue="Spring Boot.RabbitmqDemoApplication" />
+      <item itemvalue="Spring Boot.SpringCloudStreamDemoApplication" />
+      <item itemvalue="Spring Boot.SpringCloudStreamDemoApplication1" />
+      <item itemvalue="Spring Boot.SpringCloudStreamDemoApplication2" />
+      <item itemvalue="Spring Boot.SpringCloudStreamDemoApplication3" />
+      <item itemvalue="Spring Boot.StreamClientSample1Application" />
+      <item itemvalue="Spring Boot.StreamClientSample2Application" />
+      <item itemvalue="Spring Boot.streamclientsample" />
+      <item itemvalue="Spring Boot.MybatisDemoApplication" />
+      <item itemvalue="Spring Boot.CapDemoApplication" />
+      <item itemvalue="Spring Boot.MqMiddleWareApplication" />
+      <item itemvalue="Application.ProxyApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProxyApplication" />
+        <item itemvalue="JUnit.ClientWayMsgProducerTest" />
+        <item itemvalue="JUnit.HashCalculatorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showFilesets" value="false" />
+    <option name="showImplicitBeans" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9899b5e6-4a70-4e1e-b351-c3c6d1b1537f" name="Default Changelist" comment="" />
+      <created>1553664305403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553664305403</updated>
+      <workItem from="1553664310684" duration="13928000" />
+      <workItem from="1553732646069" duration="20652000" />
+      <workItem from="1553840727135" duration="4577000" />
+      <workItem from="1553909517992" duration="5975000" />
+      <workItem from="1554078458415" duration="72611000" />
+      <workItem from="1554367251770" duration="3336000" />
+      <workItem from="1554684105261" duration="49467000" />
+      <workItem from="1554942407732" duration="37768000" />
+      <workItem from="1555290720291" duration="10818000" />
+      <workItem from="1555314986220" duration="384000" />
+      <workItem from="1555319094932" duration="91465000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HashCalculatorTest - 2019.04.04 at 14h 15m 20s.xml">
+      <configuration name="HashCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashCalculatorTest - 2019.04.04 at 14h 17m 18s.xml">
+      <configuration name="HashCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashCalculatorTest - 2019.04.12 at 14h 56m 41s.xml">
+      <configuration name="HashCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashCalculatorTest - 2019.04.12 at 14h 57m 08s.xml">
+      <configuration name="HashCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashCalculatorTest - 2019.04.12 at 14h 57m 49s.xml">
+      <configuration name="HashCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashCalculatorTest - 2019.04.12 at 14h 58m 46s.xml">
+      <configuration name="HashCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashCalculatorTest - 2019.04.12 at 15h 37m 02s.xml">
+      <configuration name="HashCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashCalculatorTest - 2019.04.12 at 15h 45m 27s.xml">
+      <configuration name="HashCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientWayMsgProducerTest - 2019.04.18 at 13h 43m 50s.xml">
+      <configuration name="ClientWayMsgProducerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientWayMsgProducerTest - 2019.04.18 at 13h 44m 19s.xml">
+      <configuration name="ClientWayMsgProducerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="310981000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.33742005" />
+      <window_info id="Structure" order="1" sideWeight="0.50176054" side_tool="true" weight="0.3272921" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50176054" side_tool="true" weight="0.3272921" />
+      <window_info id="Web" order="7" sideWeight="0.50176054" side_tool="true" weight="0.3272921" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.30260304" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.2635575" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2494577" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.38394794" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.3286334" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" auto_hide="true" x="1580" y="75" width="292" height="922" id="Maven" order="3" weight="0.15565032" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kafka-demo/src/main/java/com/bqniu/kafkademo/producer/TransMessageProducer.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>517</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>545</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>850</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>1082</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/rabbitmq-demo/src/test/java/com/bqniu/rabbitmq/producer/ClientWayMsgProducerTest.java</url>
+          <line>12</line>
+          <properties field="producer" class="com.bqniu.rabbitmq.producer.ClientWayMsgProducerTest" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="206" selection-start-line="206" selection-end-line="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="238" column="20" selection-start-line="238" selection-start-column="20" selection-end-line="238" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="e#42254#42255#0" expanded="true" />
+            <element signature="e#42313#42314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="292" selection-start-line="292" selection-end-line="292" />
+          <folding>
+            <element signature="e#11479#11480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/LockModeType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE-sources.jar!/org/springframework/data/jpa/repository/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="1081" selection-start-line="1081" selection-end-line="1081" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.0.RELEASE/spring-boot-2.1.0.RELEASE-sources.jar!/org/springframework/boot/WebApplicationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.0.RELEASE/spring-boot-2.1.0.RELEASE-sources.jar!/org/springframework/boot/ApplicationArguments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.0.RELEASE/spring-boot-2.1.0.RELEASE-sources.jar!/org/springframework/boot/web/reactive/context/StandardReactiveWebEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE.jar!/org/springframework/web/context/support/StandardServletEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.0.RELEASE/spring-boot-2.1.0.RELEASE-sources.jar!/org/springframework/boot/SpringApplicationRunListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.0.RELEASE/spring-boot-2.1.0.RELEASE-sources.jar!/org/springframework/boot/EnvironmentConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.0.RELEASE/spring-boot-2.1.0.RELEASE-sources.jar!/org/springframework/boot/context/properties/source/ConfigurationPropertySources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/CachedIntrospectionResults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.2.RELEASE/spring-data-commons-2.1.2.RELEASE.jar!/org/springframework/data/repository/core/support/RepositoryFactorySupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE-sources.jar!/org/springframework/data/jpa/repository/support/JpaRepositoryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="63" column="54" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE.jar!/builddef.lst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE.jar!/license.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE.jar!/META-INF/maven/org.springframework.data/spring-data-jpa/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE.jar!/META-INF/maven/org.springframework.data/spring-data-jpa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/CapListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/NotifyFrom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/NotifyTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/CapTransactional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/TCCUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-demo/src/main/java/com/bqniu/aopdemo/aspect/ControllerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="17" column="76" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-demo/src/main/java/com/bqniu/aopdemo/aspect/ServiceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop-demo/src/main/java/com/bqniu/aopdemo/service/Impl/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/repository/TCCRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/service/TCCService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/TCCDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/annotation/TCCAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/resources/META-INFO/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/entity/TransShadow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/exception/CapTranscationalException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/config/CapDatabaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/config/CapDataSourcePropeties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/dataobject/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap-demo/src/main/java/com/bqniu/capdemo/core/aspect/CapTCCAddAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-demo/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/context/ApplicationContextInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-demo/src/main/java/com/bqniu/jpademo/JpaDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.0.RELEASE/spring-boot-2.1.0.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="1161" column="66" lean-forward="true" selection-start-line="1161" selection-start-column="66" selection-end-line="1161" selection-end-column="66" />
+          <folding>
+            <element signature="e#9803#9804#0" expanded="true" />
+            <element signature="e#9836#9837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40667808" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40667808" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40667808" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jpa-demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40667808" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40667808" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

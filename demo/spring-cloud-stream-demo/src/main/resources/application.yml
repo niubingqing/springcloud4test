@@ -1,0 +1,25 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: bqniu
+    password: 123456
+  cloud:
+    stream:
+      rabbit:
+        bindings:
+          middle-ware-callback:
+            consumer:
+              exchangeType: topic
+              autoBindDlq: true
+              republishToDlq: true
+              prefetch: 1
+#              bindingRoutingKey:
+            producer:
+              exchangeType: topic
+#              routing-key-expression:
+      bindings:
+        middle-ware-callback:
+          group: middle-ware
+          instanceCount: 2
+          instanceIndex: 1

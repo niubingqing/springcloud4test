@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name:
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: password
+mybatis:
+  typeAliasesPackage: com.bqniu.mybatisdemo.entity
+  mapperLocations: classpath:mapper/*.xml

@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: client
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: bqniu
+    password: 123456
+  cloud:
+    stream:
+      binders:
+        # 监听的消息队列的名称。
+        sample2-out:
+          # 服务的名称
+          # 将发送的对象消息转化为json，方便调试
+          content-type: application/json
+        sample2-callback:
+          content-type: application/json
+      bindings:
+        sample2-in:
+          group: sample2

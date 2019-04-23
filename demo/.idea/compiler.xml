@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aop-demo" />
+        <module name="cap-demo" />
+        <module name="jpa-demo" />
+        <module name="kafka-demo" />
+        <module name="mq-middle-ware" />
+        <module name="mybatis-demo" />
+        <module name="proxydemo" />
+        <module name="rabbitmq-demo" />
+        <module name="spring-cloud-stream-demo" />
+        <module name="stream-client-common" />
+        <module name="stream-client-sample1" />
+        <module name="stream-client-sample2" />
+        <module name="stream-config-sample" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="streamclient" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aop-demo" options="-parameters" />
+      <module name="cap-demo" options="-parameters" />
+      <module name="jpa-demo" options="-parameters" />
+      <module name="kafka-demo" options="-parameters" />
+      <module name="mq-middle-ware" options="-parameters" />
+      <module name="mybatis-demo" options="-parameters" />
+      <module name="proxydemo" options="-parameters" />
+      <module name="rabbitmq-demo" options="-parameters" />
+      <module name="spring-cloud-stream-demo" options="-parameters" />
+      <module name="stream-client-common" options="-parameters" />
+      <module name="stream-client-sample1" options="-parameters" />
+      <module name="stream-client-sample2" options="-parameters" />
+      <module name="stream-config-sample" options="-parameters" />
+      <module name="streamclient" options="-parameters" />
+    </option>
+  </component>
+</project>

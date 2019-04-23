@@ -1,0 +1,19 @@
+#server:
+#  port: 8081
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: 127.0.0.1:9092
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      key-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      transaction-id-prefix: tx
+    consumer:
+#      enable-auto-commit: true
+#      group-id: applog
+      auto-offset-reset: latest
+      bootstrap-servers: 127.0.0.1:9092
+      properties:
+        isolation.level: read_committed
+#read_committed|read_uncommitted 配置读未提交或读已提交 事务的隔离等级配置 避免脏读
+#      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+#      key-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer

@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: server
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: bqniu
+    password: 123456
+  cloud:
+    stream:
+      binders:
+        # 监听的消息队列的名称。
+        sample1-out:
+          # 服务的名称
+          # 将发送的对象消息转化为json，方便调试
+          content-type: application/json
+        sample1-callback:
+#          destination:
+          content-type: application/json
+      rabbit:
+        bindings:
+          sample1-callback:
+            consumer:
+              exchangeType: fanout
+              autoBindDlq: true
+              republishToDlq: true
+            producer:
+              exchangeType: topic
+      bindings:
+        sample1-in:
+          group: sample1 #添加group就是持久化队列的表现
